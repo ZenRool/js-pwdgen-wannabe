@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+h1 {
+    border-bottom: 1px solid lightgray;
+    min-width: none;
+}
+#psw {
+    filter: blur(1rem);
+    transition: 0.5s;
+}
+#psw:hover {
+    filter: blur(0);
+}
