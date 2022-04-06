@@ -9,10 +9,13 @@ body {
 h1 {
     border-bottom: 1px solid lightgray;
     min-width: none;
+    padding: 1rem 0;
+    margin-bottom: 0.5rem;
 }
 #psw {
     filter: blur(1rem);
     transition: 0.5s;
+    display: block;
 }
 #psw:hover {
     filter: blur(0);
